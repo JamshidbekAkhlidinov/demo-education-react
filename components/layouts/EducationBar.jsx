@@ -1,6 +1,4 @@
-import {Helmet} from "react-helmet";
-
-const EducationBar = ({title}) => {
+const EducationBar = () => {
     return (
         <>
             <section
@@ -13,7 +11,7 @@ const EducationBar = ({title}) => {
                     <div className="row mt-5">
                         <div className="col align-self-center p-static text-center">
                             <h1 className="font-weight-bold text-color-secondary text-10">
-                                {title}
+                                TEST
                             </h1>
                         </div>
                     </div>
@@ -27,7 +25,9 @@ const EducationBar = ({title}) => {
                         <ul className="breadcrumb d-block">
                             <li><a href="#">Home</a></li>
                             {/*<li><a href="#">Courses</a></li>*/}
-                            <li className="active">{title} </li>
+                            <li className="active">
+                                TEST
+                            </li>
                         </ul>
                     </div>
                 </div>

@@ -53,10 +53,10 @@ const EducationMenu = () => {
                             <div className="header-column">
                                 <div className="header-row">
                                     <div className="header-logo">
-                                        <a href="demo-education.html">
+                                        <NavLink to="/" exact="true">
                                             <img src="img/demos/education/logo.png" className="img-fluid" width="123"
                                                  height="49" alt=""/>
-                                        </a>
+                                        </NavLink>
                                     </div>
                                 </div>
                             </div>
@@ -68,7 +68,7 @@ const EducationMenu = () => {
                                             <nav className="collapse">
                                                 <ul className="nav nav-pills" id="mainNav">
                                                     <li>
-                                                        <NavLink to="/" className="nav-link active" exact="true" >
+                                                        <NavLink to="/" className="nav-link active" exact="true">
                                                             Home
                                                         </NavLink>
                                                     </li>
@@ -88,7 +88,7 @@ const EducationMenu = () => {
                                                         </NavLink>
                                                     </li>
                                                     <li>
-                                                        <NavLink to="/blog" className="nav-link" exact="true" >
+                                                        <NavLink to="/blog" className="nav-link" exact="true">
                                                             Blog
                                                         </NavLink>
                                                     </li>

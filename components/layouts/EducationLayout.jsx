@@ -1,29 +1,27 @@
-import {NavLink, Outlet, useLocation} from "react-router-dom";
+import {Outlet, useLocation} from "react-router-dom";
 import EducationMenu from "../menu/EducationMenu.jsx";
 import EducationBar from "./EducationBar.jsx";
 import EducationFooter from "./EducationFooter.jsx";
 
-const EducationLayout = ({title}) => {
+const EducationLayout = () => {
     const location = useLocation();
     const isMainPage = location.pathname !== '/';
 
     return (
         <>
-            <div className="body">
 
-                <EducationMenu/>
+            <EducationMenu/>
 
-                <div role="main" className="main">
+            <div role="main" className="main">
 
-                    {isMainPage && <EducationBar title={title}/>}
+                {isMainPage && <EducationBar/>}
 
-                    <Outlet/>
-
-                </div>
-
-                <EducationFooter/>
+                <Outlet/>
 
             </div>
+
+            <EducationFooter/>
+
         </>
     )
 }
