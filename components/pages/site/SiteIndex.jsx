@@ -575,7 +575,7 @@ const SiteIndex = ({title}) => {
                                                  src="img/demos/education/blog/blog-1.jpg" alt="Card Image"/>
                                         </a>
                                         <p className="text-uppercase text-color-default text-1 my-2">
-                                            <time pubdate="123" dateTime="2024-01-10">10 Jan 2024</time>
+                                            <time pubdate dateTime="2024-01-10">10 Jan 2024</time>
                                             <span className="opacity-3 d-inline-block px-2">|</span>
                                             3 Comments
                                             <span className="opacity-3 d-inline-block px-2">|</span>

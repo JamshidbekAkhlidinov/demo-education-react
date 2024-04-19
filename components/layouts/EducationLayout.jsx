@@ -7,6 +7,8 @@ const EducationLayout = () => {
     const location = useLocation();
     const isMainPage = location.pathname !== '/';
 
+    const title = document.title;
+
     return (
         <>
 
@@ -14,7 +16,7 @@ const EducationLayout = () => {
 
             <div role="main" className="main">
 
-                {isMainPage && <EducationBar/>}
+                {isMainPage && <EducationBar title={title}/>}
 
                 <Outlet/>
 

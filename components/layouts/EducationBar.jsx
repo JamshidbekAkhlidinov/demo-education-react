@@ -1,4 +1,4 @@
-const EducationBar = () => {
+const EducationBar = ({title}) => {
     return (
         <>
             <section
@@ -11,7 +11,7 @@ const EducationBar = () => {
                     <div className="row mt-5">
                         <div className="col align-self-center p-static text-center">
                             <h1 className="font-weight-bold text-color-secondary text-10">
-                                TEST
+                                {title}
                             </h1>
                         </div>
                     </div>
@@ -26,7 +26,7 @@ const EducationBar = () => {
                             <li><a href="#">Home</a></li>
                             {/*<li><a href="#">Courses</a></li>*/}
                             <li className="active">
-                                TEST
+                                {title}
                             </li>
                         </ul>
                     </div>

@@ -18,7 +18,7 @@ const BlogIndex = ({title}) => {
                                              src="img/blog/wide/blog-2.jpg" alt="Card Image"/>
                                     </a>
                                     <p className="text-uppercase text-color-default text-1 my-2">
-                                        <time pubdate dateTime="2024-01-10">10 Jan 2024</time>
+                                        <time dateTime="2024-01-10">10 Jan 2024</time>
                                         <span className="opacity-3 d-inline-block px-2">|</span>
                                         3 Comments
                                         <span className="opacity-3 d-inline-block px-2">|</span>
@@ -50,7 +50,7 @@ const BlogIndex = ({title}) => {
                                              src="img/blog/wide/blog-21.jpg" alt="Card Image"/>
                                     </a>
                                     <p className="text-uppercase text-color-default text-1 my-2">
-                                        <time pubdate dateTime="2024-01-10">10 Jan 2024</time>
+                                        <time dateTime="2024-01-10">10 Jan 2024</time>
                                         <span className="opacity-3 d-inline-block px-2">|</span>
                                         3 Comments
                                         <span className="opacity-3 d-inline-block px-2">|</span>
